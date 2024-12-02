@@ -18,7 +18,7 @@ def cleanResume(txt):
     cleanText = re.sub(r'RT|cc', ' ', cleanText)
     cleanText = re.sub(r'#\S+\s', ' ', cleanText)
     cleanText = re.sub(r'@\S+', '  ', cleanText)
-    cleanText = re.sub(r'[{}]'.format(re.escape("""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~""")), ' ', cleanText)
+    cleanText = re.sub(r'[{}]'.format(re.escape("""!"#$%&'()*+,-./:;<=>?@[/]^_`{|}~""")), ' ', cleanText)
     cleanText = re.sub(r'[^\x00-\x7f]', ' ', cleanText)
     cleanText = re.sub(r'\s+', ' ', cleanText)
     return cleanText
