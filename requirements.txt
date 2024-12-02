@@ -3,3 +3,5 @@ pypdf
 re
 streamlit
 docx 
+pickle
+os
