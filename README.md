@@ -1,5 +1,7 @@
 # Advanced Resume Categorizer Application  
 
+**Live Project:** [AI-Based Resume Categorizer Application](https://resume-categorization.streamlit.app/)
+
 ## Project Overview  
 The **Advanced Resume Categorizer Application** is a powerful tool designed to streamline the process of analyzing, categorizing, and extracting key insights from resumes in bulk. This project utilizes machine learning models and natural language processing (NLP) techniques to categorize resumes into predefined roles, extract skills, experience, and location details, and organize them into structured output formats.  
 
