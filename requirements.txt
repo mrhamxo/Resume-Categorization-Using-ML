@@ -2,3 +2,4 @@ pandas
 pypdf
 streamlit
 python-docx
+scikit-learn
